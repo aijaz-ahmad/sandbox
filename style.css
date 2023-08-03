@@ -1,0 +1,394 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Urbanist', sans-serif;
+}
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,200;1,400;1,500;1,600;1,800&family=Rajdhani:wght@400;500;600;700&family=Urbanist:wght@100;200;300;400;500;600;700&display=swap');
+section#top-bar {
+	background: #f0f0f8;
+}
+.nav-bar {
+	margin-top: -10px;
+}
+li.nav-item {
+	padding: 0 15px;
+	font-size: 18px;
+}
+.btn {
+	background: #605dba;
+	border: none;
+	padding: 6px 10px;
+	font-size: 18px;
+	font-weight: 700;
+	border-radius: 10px;
+	margin-top: 10px;
+	padding-left: 12px;
+}
+button.btn.btn-outline-secondary {
+	padding: 13px 15px;
+	background: #f0f0f8;
+	border: 2px solid #605dba;
+	margin-left: 10px;
+	color: #605dba;
+}
+.side-img {
+	width: 80%;
+	margin-left: 35px;
+	margin-top: 5%;
+}
+.hhh {
+	background: url(img/clouds.png);
+	padding-top: 110px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-top: -10%;
+}
+.content h1 {
+	font-size: 50px;
+	color: #343f52;
+}
+.content p {
+	font-size: 22px;
+	width: 90%;
+	font-weight: lighter;
+	line-height: 36px;
+	margin-top: 24px;
+	color: #5c6c7c;
+}
+.content h1 span {
+	color: #605dba;
+}
+.service-text.text-center {
+	margin-top: 20%;
+}
+.service-text h2 {
+	font-size: 16px;
+	text-align: center;
+	margin-left: 7%;
+	color: #605dba;
+}
+.service-text p {
+	margin-left: 12%;
+	font-size: 39px;
+	width: 83%;
+	margin-top: 20px;
+	color: #343f52;
+	font-weight: 700;
+}
+.service-card {
+	margin-left: 22%;
+	margin-top: 15%;
+}
+.card-text h2 {
+	font-size: 18px;
+	font-weight: 500;
+}
+.card-text p {
+	padding: -10px;
+	line-height: 32px;
+	font-size: 16px;
+	color: #60697f;
+	font-weight: 500;
+}
+.card-text a {
+	color: #0d6efd;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 700;
+}
+.card-text h2 {
+	font-size: 18px;
+	font-weight: 500;
+}
+section#why-us {
+	margin-top: 15%;
+}
+.why-us-img img {
+	width:100%;
+}
+.why-us-text {
+	margin-left: 20%;
+}
+.why-us-text h2 {
+	font-size:16px;
+	color:#605dc0;
+}
+.why-us-text p {
+	font-size: 37px;
+	margin-top: 25px;
+	color: #60697f;
+}
+.xxl img {
+	margin-left: -12px;
+}
+.xxl-text {
+	float: right;
+	margin-top: -13%;
+	margin-right: 12%;
+	width: 100%;
+}
+.xxl-text h4 {
+	font-size: 18px;
+	line-height: 1.7;
+	font-weight: 600;
+	margin-left: 60px;
+}
+.xxl-text p {
+	font-size: 18px;
+	margin-left: 66px;
+	width: 100%;
+}
+.why-us-text-2 {
+	margin-top: 25%;
+}
+.why-us-text-2 h2 {
+	font-size: 16px;
+	font-weight: 500;
+	color:#605dc0;
+}
+.why-us-text-2 h3 {
+	font-size: 44px;
+	margin-top: 10px;
+}
+.why-us-text-2 p {
+	font-size: 18px;
+	width: 83%;
+	line-height: 36px;
+	margin-top: 30px;
+	color: #65697b;
+}
+.why-us-img-2 {
+	margin-top: 18%;
+}
+.why-us-img-2 img {
+	width:100%;
+}
+.rating {
+	margin-top: -50%;
+}
+.rating span {
+	font-size: 44px;
+	font-weight: 800;
+}
+.rating h6 {
+	font-size: 20px;
+	margin-left: 5px;
+}
+.rating ul {
+	display: flex;
+	margin-left: -27px;
+}
+.rating ul li {
+	list-style: none;
+}
+.rating ul li a {
+	text-decoration: underline;
+	font-size: 12px;
+	color: #ffd700c2;
+}
+section#customer {
+	margin-top: 15%;
+	background: #f0f0f8;
+	width: 80%;
+	margin-left: 10%;
+}
+.customer-text {
+	text-align: center;
+	margin-top: -5%;
+	padding-left: 1%;
+}
+.customer-text h2 {
+	font-size: 16px;
+	color: #775dba;
+	padding-top: 10%;
+	margin-left: 27px;
+}
+.customer-text h3 {
+	margin-top: 20px;
+	font-size: 38px;
+	width: 70%;
+	line-height: 50px;
+	margin-left: 13%;
+	color: #343f52;
+	padding-left: 50px;
+}
+.customer-img {
+	margin-top: 10%;
+	margin-left: -10%;
+}
+.customer-img img {
+	width: 70%;
+}
+.side-icon {
+	margin-left: -14%;
+	margin-top: 10%;
+}
+.side-icon ul {
+	display: flex;
+	margin-left: -27px;
+}
+.side-icon ul li {
+	list-style: none;
+}
+.side-icon ul li a {
+	text-decoration: underline;
+	font-size: 12px;
+	color: #ffd700c2;
+}
+.side-text {
+	width: 88%;
+	margin-left: -14%;
+}
+.side-text p {
+	color: #7d8494;
+	font-size: 20px;
+	line-height: 40px;
+	text-align: left;
+}
+.side-title {
+	float: left;
+	margin-left: -72px;
+	margin-top: 20px;
+}
+.side-title h5 {
+	font-size: 22px;
+	margin-bottom: 12px;
+}
+.side-title span {
+	font-size: 17px;
+	color: #616a7c;
+	font-weight: 600;
+}
+.prices-card {
+	margin-top: 70%;
+}
+.prices-card h5 {
+	font-size: 16px;
+	color: #605dba;
+}
+.prices-card h2 {
+	font-size: 40px;
+	margin-top: 20px;
+	font-weight: 600;
+}
+.prices-card p {
+	font-size: 18px;
+	width: 100%;
+	line-height: 32px;
+	margin-top: 20px;
+	color: #60697b;
+}
+.price-currency {
+	margin-top: 46%;
+	margin-left: 15%;
+	width: 90%;
+	text-align: center;
+	box-shadow: 6px 11px 15px;
+	padding-right: 30px;
+	padding: 50px;
+	border-radius: 10px;
+}
+span.price-currency-text {
+	margin-top: 23px;
+	font-size: 20px;
+	margin-left: -40px;
+}
+span.value {
+	font-size: 44px;
+	padding-right: 50px;
+}
+span.price-duration {
+	color: #8f8d8d;
+	padding-right: 20px;
+	margin-left: -48px;
+}
+.price-currency ul {
+	font-size: 18px;
+	padding: 10px;
+	text-align: left;
+	margin-left: 42px;
+	line-height: 40px;
+	margin-top: 15
+}
+section#search {
+	background: #f0f0f8;
+	margin-top: 10%;
+}
+.search-text {
+	text-align: center;
+	padding-top: 100px;
+	width: 100%;
+}
+.search-text h2 {
+	font-size: 16px;
+	color: blue;
+	margin-left: 5%;
+}
+.search-text h3 {
+	font-size: 44px;
+	padding-left: 10%;
+	margin-left: 2%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+.input-group {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	width: 50%;
+	margin-left: 30%;
+	border: none;
+	margin-top: 5%;
+}
+input.form-control {
+	border: none;
+}
+button#button-addon2 {
+	margin-top: -1px;
+	color: #fff;
+	background: #605dba;
+}
+.hhh-2 {
+	background: url(img/clouds.png);
+	padding-top: 110px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-top: 10%;
+}
+section#footer {
+	margin-top: 10%;
+}
+.footer-log {
+	padding-left: 0px;
+	margin-top: 10%;
+}
+.foot-title {
+	margin-top: 30px;
+}
+.foot-title p {
+	font-size: 18px;
+	margin-left: 2px;
+}
+
+.foot-text {
+    float: right;
+    margin-top: 5%;
+    margin-right: 65%;
+}
+.phone {
+	margin-left: 65px;
+	line-height: 1.8;
+}
+.foot-text p {
+{
+ font-size: 18px;
+ margin-left: 19px;
+}
+address {
+	margin-left: 55px;
+	width: 100%;
+}
